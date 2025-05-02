@@ -42,7 +42,7 @@ export const sharedPageComponents: SharedLayout = {
   ],
   footer: Component.Footer({
     links: {
-      GitHub: "https://github.com/palaeo",
+      GitHub: "https://github.com/runnynosepenguin",
       Email: "mailto:namtet7@gmail.com",
     },
 

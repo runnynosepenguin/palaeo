@@ -24,7 +24,7 @@ export const sharedPageComponents: SharedLayout = {
       provider: 'giscus',
       options: {
         // from data-repo
-        repo: "thdngan/arboretum",
+        repo: "runnynosepenguin/palaeo",
         // from data-repo-id
         repoId: "R_kgDOHxknJg",
         // from data-category
@@ -33,7 +33,7 @@ export const sharedPageComponents: SharedLayout = {
         categoryId: "DIC_kwDOHxknJs4CfhAs",
         mapping: "pathname",
         strict: false,
-        themeUrl: "https://thdngan.github.io/arboretum/static/giscus", // corresponds to quartz/static/giscus/
+        themeUrl: "https://runnynosepenguin.github.io/palaeo/static/giscus", // corresponds to quartz/static/giscus/
         lightTheme: "light", // corresponds to light-theme.css in quartz/static/giscus/
         darkTheme: "dark", // corresponds to dark-theme.css quartz/static/giscus/
         inputPosition: "top",
@@ -42,8 +42,8 @@ export const sharedPageComponents: SharedLayout = {
   ],
   footer: Component.Footer({
     links: {
-      GitHub: "https://github.com/thdngan",
-      Email: "mailto:trinhhoangdieungan@gmail.com",
+      GitHub: "https://github.com/palaeo",
+      Email: "mailto:namtet7@gmail.com",
     },
 
   }),
@@ -68,15 +68,15 @@ export const defaultContentPageLayout: PageLayout = {
       Component.Search(),
       Component.Darkmode(),
     ]),
-    Component.DesktopOnly(
-      Component.RecentNotes({
-        title: "Recent Posts",
-        limit: 4,
-        filter: (f) =>
-          f.slug!.startsWith("posts/") && f.slug! !== "posts/index" && !f.frontmatter?.noindex,
-        linkToMore: "posts/" as SimpleSlug,
-      }),
-    ),
+    // Component.DesktopOnly(
+    //   Component.RecentNotes({
+    //     title: "Recent Posts",
+    //     limit: 4,
+    //     filter: (f) =>
+    //       f.slug!.startsWith("posts/") && f.slug! !== "posts/index" && !f.frontmatter?.noindex,
+    //     linkToMore: "posts/" as SimpleSlug,
+    //   }),
+    // ),
 
     // Component.DesktopOnly(
     //   Component.RecentNotes({

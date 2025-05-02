@@ -9,14 +9,14 @@ import * as Component from "./quartz/components"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "L'arboretum", /**🐧 */
+    pageTitle: "Palaeo", /**🐧 */
     enableSPA: true,
     enablePopovers: true,
     analytics: {
       provider: "plausible",
     },
     locale: "en-US",
-    baseUrl: "thdngan.github.io/arboretum",
+    baseUrl: "runnynosepenguin.github.io/palaeo",
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "created",
     theme: {
@@ -118,8 +118,6 @@ const config: QuartzConfig = {
       Plugin.CreatedModifiedDate({
         priority: ["frontmatter", "filesystem"],
       }),
-      // Plugin.Remark42({ host: "https://thdngan.github.io/arboretum/", site_id: "remark", no_footer: true }),
-      // Plugin.Quoting(),
       Plugin.Latex({ renderEngine: "katex" }),
       Plugin.SyntaxHighlighting({
         theme: {

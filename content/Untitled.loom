@@ -1,0 +1,182 @@
+{
+  "model": {
+    "columns": [
+      {
+        "id": "adc8cb95-70f1-4e53-90a2-413feedf1ad1",
+        "sortDir": "default",
+        "isVisible": true,
+        "width": "140px",
+        "type": "text",
+        "numberPrefix": "",
+        "numberSuffix": "",
+        "numberSeparator": "",
+        "content": "To Do",
+        "numberFormat": "number",
+        "currencyType": "USD",
+        "dateFormat": "mmddyyyy",
+        "dateFormatSeparator": "-",
+        "hour12": true,
+        "includeTime": false,
+        "shouldWrapOverflow": true,
+        "tags": [],
+        "calculationType": "none",
+        "aspectRatio": "unset",
+        "horizontalPadding": "unset",
+        "verticalPadding": "unset",
+        "frontmatterKey": null,
+        "multiTagSortDir": "default"
+      },
+      {
+        "id": "73dad8c5-bfad-4cd7-b83f-03f83cea69c6",
+        "sortDir": "default",
+        "isVisible": true,
+        "width": "140px",
+        "type": "text",
+        "numberPrefix": "",
+        "numberSuffix": "",
+        "numberSeparator": "",
+        "content": "Doing",
+        "numberFormat": "number",
+        "currencyType": "USD",
+        "dateFormat": "mmddyyyy",
+        "dateFormatSeparator": "-",
+        "hour12": true,
+        "includeTime": false,
+        "shouldWrapOverflow": true,
+        "tags": [],
+        "calculationType": "none",
+        "aspectRatio": "unset",
+        "horizontalPadding": "unset",
+        "verticalPadding": "unset",
+        "frontmatterKey": null,
+        "multiTagSortDir": "default"
+      },
+      {
+        "id": "ca0efc8a-bb56-46d9-9f23-9d9e49de6e3f",
+        "sortDir": "default",
+        "isVisible": true,
+        "width": "140px",
+        "type": "text",
+        "numberPrefix": "",
+        "numberSuffix": "",
+        "numberSeparator": "",
+        "content": "Done",
+        "numberFormat": "number",
+        "currencyType": "USD",
+        "dateFormat": "mmddyyyy",
+        "dateFormatSeparator": "-",
+        "hour12": true,
+        "includeTime": false,
+        "shouldWrapOverflow": true,
+        "tags": [],
+        "calculationType": "none",
+        "aspectRatio": "unset",
+        "horizontalPadding": "unset",
+        "verticalPadding": "unset",
+        "frontmatterKey": null,
+        "multiTagSortDir": "default"
+      },
+      {
+        "id": "b4634632-41c1-42e5-baa9-8c51f74802b7",
+        "sortDir": "default",
+        "isVisible": true,
+        "width": "140px",
+        "type": "text",
+        "numberPrefix": "",
+        "numberSuffix": "",
+        "numberSeparator": "",
+        "content": "Courses notes",
+        "numberFormat": "number",
+        "currencyType": "USD",
+        "dateFormat": "mmddyyyy",
+        "dateFormatSeparator": "-",
+        "hour12": true,
+        "includeTime": false,
+        "shouldWrapOverflow": true,
+        "tags": [],
+        "calculationType": "none",
+        "aspectRatio": "unset",
+        "horizontalPadding": "unset",
+        "verticalPadding": "unset",
+        "frontmatterKey": null,
+        "multiTagSortDir": "default"
+      }
+    ],
+    "rows": [
+      {
+        "id": "b7c08826-3658-47d4-b6da-6a4f2d997e5b",
+        "index": 0,
+        "sourceId": null,
+        "creationDateTime": "2024-10-19T12:43:23.270Z",
+        "lastEditedDateTime": "2024-10-19T12:52:41.717Z",
+        "cells": [
+          {
+            "id": "ef36646e-bb78-4fa7-a628-8d11cc391042",
+            "columnId": "adc8cb95-70f1-4e53-90a2-413feedf1ad1",
+            "content": "",
+            "hasValidFrontmatter": null
+          },
+          {
+            "id": "35f5c5cc-594f-41e0-95f5-43ac7653cec5",
+            "columnId": "73dad8c5-bfad-4cd7-b83f-03f83cea69c6",
+            "content": "",
+            "hasValidFrontmatter": null
+          },
+          {
+            "id": "72cc50de-75a2-4020-ac22-1a5aa339eeea",
+            "columnId": "ca0efc8a-bb56-46d9-9f23-9d9e49de6e3f",
+            "content": "",
+            "hasValidFrontmatter": null
+          },
+          {
+            "id": "cdfeb794-c74f-47dd-a5bf-91bcee0eb1a0",
+            "columnId": "b4634632-41c1-42e5-baa9-8c51f74802b7",
+            "content": "OD: python",
+            "hasValidFrontmatter": null
+          }
+        ]
+      },
+      {
+        "id": "014f6abf-5fe5-4ef4-9818-bc6bc8d8184a",
+        "index": 1,
+        "sourceId": null,
+        "creationDateTime": "2024-10-19T12:44:07.509Z",
+        "lastEditedDateTime": "2024-10-19T12:53:19.372Z",
+        "cells": [
+          {
+            "id": "714f4d83-eca1-463c-80ff-ef5ff96ad2b9",
+            "columnId": "adc8cb95-70f1-4e53-90a2-413feedf1ad1",
+            "content": "",
+            "hasValidFrontmatter": null
+          },
+          {
+            "id": "72fba533-7927-476a-9f19-b71bbe9b99f9",
+            "columnId": "73dad8c5-bfad-4cd7-b83f-03f83cea69c6",
+            "content": "",
+            "hasValidFrontmatter": null
+          },
+          {
+            "id": "1912155f-c04f-4d2f-8545-37275c40babf",
+            "columnId": "ca0efc8a-bb56-46d9-9f23-9d9e49de6e3f",
+            "content": "",
+            "hasValidFrontmatter": null
+          },
+          {
+            "id": "25a6e82f-5f93-41e5-aace-b315f25fe1a9",
+            "columnId": "b4634632-41c1-42e5-baa9-8c51f74802b7",
+            "content": "",
+            "hasValidFrontmatter": null
+          }
+        ]
+      }
+    ],
+    "filters": [],
+    "sources": [],
+    "settings": {
+      "numFrozenColumns": 1,
+      "showCalculationRow": true
+    },
+    "externalRowOrder": []
+  },
+  "pluginVersion": "8.16.1"
+}
